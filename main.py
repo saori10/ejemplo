@@ -1,3 +1,4 @@
+# Juego de piedra, ppel o tijera
 user_option = input("Elige, piedra, papel o tijera: ")
 user_option = user_option.lower()
 computer_option = "piedra"

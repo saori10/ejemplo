@@ -1,6 +1,5 @@
 text = "Ella sabe programar en Python"
 
-"""
 print("JavaScript" in text)
 print("Python" in text)
 
@@ -8,7 +7,6 @@ if "Python" in text:
     print("Elegiste bien")
 else:
     print("También elegiste bien")
-"""
 
 # len permite analizar la cantidad de caracteres en una cadena de texto
 size = len(text)

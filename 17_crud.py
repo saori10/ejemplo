@@ -29,7 +29,7 @@ print(index)
 new_list[index]= "todo changed"
 print(new_list)
 
-# remove() = borra el primer item de la lista cuyo valor concuerde con el indicado
+# remove() = borra elementos de la lista cuyo valor concuerde con el indicado
 new_list.remove("todo 1")
 print(new_list)
 

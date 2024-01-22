@@ -1,7 +1,19 @@
 # Juego de piedra, ppel o tijera
+
+import random
+
+options = ("piedra", "papel", "tijera")
+
 user_option = input("Elige, piedra, papel o tijera: ")
 user_option = user_option.lower()
-computer_option = "piedra"
+
+if not user_option in options:
+    print("Esa opcion no es válida")
+
+computer_option = random.choice(options)
+
+print("User option =>", user_option)
+print("Computer option =>", computer_option)
 
 if user_option == computer_option:
     print("Empate!")
